@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate — {{ORG_NAME}}</title>
+  <meta name="description" content="Support practical help and faith-based outreach through secure online giving. One-time and monthly options available." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div class="utility-bar">
+    <div class="container">
+      <span class="utility-tag">Secure giving</span>
+      <div class="utility-links">
+        <a href="transparency.html">Where it goes</a>
+        <a href="#faq">Donation FAQ</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark">{{BRAND_INITIAL}}</span><span>{{ORG_NAME_PART_1}} <small>{{ORG_NAME_PART_2}}</small></span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav><ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="btn btn-gold btn-sm" href="donate.html">Give Now</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <section class="page-hero-prisma">
+    <div class="container">
+      <span class="eyebrow">Give</span>
+      <h1>Fuel meals, mercy, and hope.</h1>
+      <p>Every contribution turns into something a real person needs this week — a meal, a coat, a prescription, a moment of being seen.</p>
+    </div>
+  </section>
+
+  <section style="padding-top: 2rem;">
+    <div class="container">
+      <div class="donate-grid">
+
+        <!-- Form -->
+        <form class="donate-form" data-demo data-reveal>
+          <div class="donate-toggle">
+            <button type="button" class="active">One-time gift</button>
+            <button type="button">Give monthly</button>
+          </div>
+
+          <h4 style="margin: 1rem 0 .8rem;">Choose an amount</h4>
+          <div class="amounts">
+            <button type="button">$25</button>
+            <button type="button" class="active">$50</button>
+            <button type="button">$100</button>
+            <button type="button">$250</button>
+          </div>
+          <div class="custom-amount">
+            <span>$</span>
+            <input type="number" min="1" placeholder="Other amount" />
+          </div>
+
+          <h4 style="margin: .5rem 0 .8rem;">Payment method</h4>
+          <div class="payment-methods">
+            <button type="button" class="pm active">Card (Stripe)</button>
+            <button type="button" class="pm">PayPal</button>
+            <button type="button" class="pm">Cash App</button>
+            <button type="button" class="pm">Venmo</button>
+          </div>
+
+          <h4 style="margin: 1rem 0 .8rem;">Your details</h4>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="d-first">First name</label>
+              <input id="d-first" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="d-last">Last name</label>
+              <input id="d-last" type="text" required />
+            </div>
+          </div>
+          <div class="form-field" style="margin-top: 1rem;">
+            <label for="d-email">Email (for your receipt)</label>
+            <input id="d-email" type="email" required />
+          </div>
+
+          <label style="display: flex; gap:.6rem; align-items:flex-start; margin: 1.2rem 0; font-size:.9rem; color: var(--c-muted);">
+            <input type="checkbox" checked />
+            <span>Send me one short outreach update each week.</span>
+          </label>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block btn-arrow">Give securely</button>
+
+          <p data-note hidden style="margin-top:1rem; color: var(--c-sage); font-size:.9rem;"></p>
+
+          <p style="font-size:.78rem; color: var(--c-muted); margin-top: 1.2rem; line-height:1.5;">
+            Payments processed securely. We never store card data on this site.
+            A confirmation will be emailed to you for your records. Tax treatment
+            depends on organizational status and your individual circumstances —
+            see our transparency page for current details.
+          </p>
+        </form>
+
+        <!-- Aside -->
+        <aside class="donate-aside" data-reveal>
+          <div class="trust-card">
+            <h4>Why give here?</h4>
+            <ul class="trust-list">
+              <li>100% goes to direct outreach &amp; ops</li>
+              <li>Quarterly public spending recap</li>
+              <li>Receipts emailed instantly</li>
+              <li>Cancel monthly giving anytime</li>
+              <li>No third-party reselling of donor data</li>
+            </ul>
+          </div>
+
+          <div class="trust-card">
+            <h4>$50 covers...</h4>
+            <p style="margin: 0; color: var(--c-muted); font-size: .92rem;">
+              ~25 hot meals on the next street outreach, or one full hygiene
+              kit including socks, blanket, water, and snacks.
+            </p>
+          </div>
+
+          <div class="trust-card" style="background: var(--c-ink); color: var(--c-cream); border:0;">
+            <h4 style="color: var(--c-gold-soft);">Prefer a campaign?</h4>
+            <p style="margin: 0 0 1rem; font-size:.92rem; opacity:.9;">
+              Some pushes happen on Spotfund where social momentum helps. See
+              what’s currently live.
+            </p>
+            <a href="{{CAMPAIGN_URL}}" class="btn btn-gold btn-sm">View campaign</a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="background: var(--c-paper);">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Donation FAQ</span>
+        <h2>Honest answers about giving.</h2>
+      </div>
+      <div class="faq" data-reveal>
+        <details open>
+          <summary>Is my donation tax-deductible?</summary>
+          <p>Not at this time. Federal tax-exempt status is in development and is not yet confirmed. We do not claim 501(c)(3) status until that registration is finalized and verifiable. Once confirmed, we will publish our EIN here and update receipt language.</p>
+        </details>
+        <details>
+          <summary>How will my contribution be used?</summary>
+          <p>Direct outreach: meals, hygiene kits, clothing, transportation, and emergency support. A small portion covers operating costs (payment processing, basic tools, supplies). Quarterly recaps published on the transparency page show the breakdown.</p>
+        </details>
+        <details>
+          <summary>How do I cancel monthly giving?</summary>
+          <p>You can cancel any time from the receipt email confirmation, or by emailing us. There’s no penalty, no questions asked.</p>
+        </details>
+        <details>
+          <summary>Can I give in-kind (clothing, food, supplies)?</summary>
+          <p>Yes. Reach out via the contact page and we’ll coordinate drop-off or pickup for outreach-ready items.</p>
+        </details>
+        <details>
+          <summary>Will I get a receipt?</summary>
+          <p>Yes — emailed immediately after your gift. Keep it for your records.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">{{ORG_NAME}}<small>Founded by {{FOUNDER_NAME}}</small></a>
+          <p style="font-size:.92rem; max-width: 36ch; opacity:.85;">Faith-based outreach mission serving {{STATE}} and beyond.</p>
+          <div class="social-links" style="margin-top:1.2rem;">
+            <a href="{{INSTAGRAM_URL}}" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="TikTok">TT</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="links.html" aria-label="All links">/links</a>
+          </div>
+        </div>
+        <div><h4>Mission</h4><ul>
+          <li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li>
+          <li><a href="transparency.html">Transparency</a></li><li><a href="events.html">Events</a></li>
+        </ul></div>
+        <div><h4>Get involved</h4><ul>
+          <li><a href="donate.html">Give</a></li><li><a href="events.html">Volunteer</a></li>
+          <li><a href="shop.html">Shop</a></li><li><a href="contact.html">Partner with us</a></li>
+        </ul></div>
+        <div><h4>Resources</h4><ul>
+          <li><a href="contact.html">Contact</a></li><li><a href="links.html">All links</a></li>
+          <li><a href="legal.html">Privacy &amp; Terms</a></li><li><a href="legal.html">Donation policy</a></li>
+        </ul></div>
+      </div>
+      <p class="footer-disclaimer"><strong>Status note:</strong> Federal tax-exempt status is not yet confirmed. Contributions support direct outreach but should not be claimed as tax-deductible until our IRS status is published here.</p>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> {{ORG_NAME}}. All rights reserved.</span>
+        <span><a href="legal.html" style="color:#cdc7b8;">Legal</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

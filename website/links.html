@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Links — {{FOUNDER_NAME}} · {{ORG_NAME}}</title>
+  <meta name="description" content="Every place to find {{FOUNDER_NAME}} and {{ORG_NAME}} — give, volunteer, shop, follow." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="links-page">
+
+  <div class="links-card">
+    <div class="links-avatar">{{BRAND_INITIAL}}</div>
+    <h1>{{FOUNDER_NAME}}</h1>
+    <p class="handle">@{{INSTAGRAM_HANDLE}} · {{ORG_NAME}}</p>
+
+    <div class="links-list">
+      <a class="link-item primary" href="donate.html">
+        <span class="ico">$</span>
+        <span>Give to the mission</span>
+      </a>
+      <a class="link-item" href="{{CAMPAIGN_URL}}">
+        <span class="ico">★</span>
+        <span>Current Spotfund campaign</span>
+      </a>
+      <a class="link-item" href="events.html">
+        <span class="ico">📅</span>
+        <span>Upcoming outreach events</span>
+      </a>
+      <a class="link-item" href="shop.html">
+        <span class="ico">🛍</span>
+        <span>Shop {{APPAREL_BRAND}}</span>
+      </a>
+      <a class="link-item" href="programs.html">
+        <span class="ico">📍</span>
+        <span>What we do</span>
+      </a>
+      <a class="link-item" href="transparency.html">
+        <span class="ico">📊</span>
+        <span>Transparency &amp; impact reports</span>
+      </a>
+      <a class="link-item" href="about.html">
+        <span class="ico">✦</span>
+        <span>The story behind it all</span>
+      </a>
+      <a class="link-item" href="contact.html">
+        <span class="ico">✉</span>
+        <span>Partner / press / volunteer inquiries</span>
+      </a>
+    </div>
+
+    <div class="links-socials">
+      <a href="{{INSTAGRAM_URL}}" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="TikTok">TT</a>
+      <a href="#" aria-label="YouTube">YT</a>
+      <a href="#" aria-label="X">X</a>
+    </div>
+
+    <p style="margin-top: 2.5rem; font-size: .82rem; color: var(--c-muted);">
+      Visit <a href="index.html" style="color: var(--c-ink); text-decoration: underline;">{{ORG_DOMAIN}}</a>
+    </p>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
