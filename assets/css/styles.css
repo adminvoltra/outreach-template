@@ -1349,13 +1349,13 @@ section {
   font-weight: 500;
   line-height: .85;
   letter-spacing: -.07em;
-  font-size: clamp(4rem, 26vw, 22rem);
+  font-size: clamp(3rem, 18vw, 16rem);
   margin: 0;
 }
-@media (min-width: 640px)  { .prisma-headline { font-size: 24vw; } }
-@media (min-width: 768px)  { .prisma-headline { font-size: 22vw; } }
-@media (min-width: 1024px) { .prisma-headline { font-size: 20vw; } }
-@media (min-width: 1280px) { .prisma-headline { font-size: 19vw; } }
+@media (min-width: 640px)  { .prisma-headline { font-size: 16vw; } }
+@media (min-width: 768px)  { .prisma-headline { font-size: 14vw; } }
+@media (min-width: 1024px) { .prisma-headline { font-size: 13vw; } }
+@media (min-width: 1280px) { .prisma-headline { font-size: 12vw; } }
 
 /* Word pull-up animation (CSS recreation of framer-motion stagger) */
 .word-pull {
